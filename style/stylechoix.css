@@ -161,12 +161,33 @@ a:hover {
 }
 
 footer {
-  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2f2f2;
+  height: 50px;
+  padding: 10px;
   box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.25);
-  padding: 5px;
-  margin-top: 100px;
+
 }
 
+.footer-left, .copy-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-left h3, .footer-left p, .copy-right p {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+}
+
+.copy-right {
+  font-size: 10px;
+}
 .loader {
   border: 10px solid #f3f3f3; /* Light grey */
   border-top: 10px solid #3498db; /* Blue */
@@ -182,4 +203,23 @@ footer {
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
+}
+.resultat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.resultat p {
+  margin: 10px 0;
+}
+
+.resultat .image {
+  margin: 20px 0;
+}
+
+.resultat .image img {
+  max-width: 100%;
 }

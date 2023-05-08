@@ -57,15 +57,16 @@ session_start();
                 ?>
         </div>
     </body>
+    <br>
+    <br>
+    <br>
+
     <footer>
-    <div class="footer-container">
         <div class="footer-left">
-            <h3>CyberVote</h3>
+            <h3>CyberVote Administration</h3>
             <p>Téléphone : 514-555-1234</p>
             <p>Email : info@cybervote.com</p>
         </div>
-
-    </div>
     <div class="copy-right">
         <p>&copy; 2023 CyberVote. Tous droits réservés.</p>
     </div>

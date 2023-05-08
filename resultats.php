@@ -43,7 +43,7 @@ session_start();
   
   ?>
   <h3>Résultat des élections :</h3>
-  <div>
+  <div class="resultat">
     <?php
       $electionId = intval($_GET["election_id"]);
       include("ConnexionBDD.php");
@@ -63,18 +63,17 @@ session_start();
         echo("<p>Candidat " . $row['PrenomSalarie'] . " " .  $row['NomSalarie'] .  " : " . $row['NbVoix'] ." nombres de voix.</p>");
       }
     ?>
+  <div class="image">
+    <img src="style/website_voting.png" alt="Logo CyberVote">
+  </div>
   </div>
 </body>
-
-    <footer>
-    <div class="footer-container">
+<footer>
         <div class="footer-left">
-            <h3>CyberVote</h3>
+            <h3>CyberVote Administration</h3>
             <p>Téléphone : 514-555-1234</p>
             <p>Email : info@cybervote.com</p>
         </div>
-
-    </div>
     <div class="copy-right">
         <p>&copy; 2023 CyberVote. Tous droits réservés.</p>
     </div>

@@ -17,7 +17,7 @@ if ($username !== "" && $password !== "") {
     $stmt->execute();
     $stmt->bind_result($col1, $col2); // noms de variables temporaires
     if ($stmt->fetch()) {
-        header('Location: Choix_Election/index.php'); // bon login
+        header('Location: choix_election.php'); // bon login
     } else {
         header('Location: index_erreur.html'); // Mauvais login
     }

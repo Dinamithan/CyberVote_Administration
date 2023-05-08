@@ -1,0 +1,185 @@
+/* Style pour le body */
+body {
+  background-color: #f7f7f7;
+  font-family: Arial, sans-serif;
+}
+
+/* Style pour le header */
+header {
+  background-color: #fff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 10px 20px;
+}
+
+nav .deconnexion{
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 10px 20px;
+
+  margin-left: auto;
+}
+
+nav .choix
+{
+  padding: 10px 20px;
+  margin-inline-start: auto;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+nav .nouvelle_election
+{
+  padding: 10px 20px;
+  margin-inline-start: auto;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-container img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+/* Style pour les boutons */
+button {
+  background-color: #fff;
+  border: none;
+  color: #333;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #eee;
+}
+
+/* Style pour les titres */
+h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Style pour les div d'élection */
+.election {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.election > div {
+  background-color: #ddd;
+  border-radius: 4px;
+  margin: 10px;
+  padding: 20px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Style pour les liens */
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.election div {
+  background-color: #ccc;
+  margin-bottom: 10px;
+  padding: 10px;
+  transition: background-color 0.2s ease-in-out;
+  display: block; /* Ajout de la propriété display */
+}
+
+.election div:hover {
+  background-color: #ddd;
+}
+
+
+
+.election .date {
+  font-size: 1.2em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+
+.nouvelle.election form {
+  margin: 0 auto;
+  width: 400px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+.nouvelle.election label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #555;
+}
+
+.nouvelle.election input[type="text"],
+.nouvelle.election input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.nouvelle.election input[type="submit"] {
+  background-color: #1e88e5;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.nouvelle.election input[type="submit"]:hover {
+  background-color: #1565c0;
+}
+
+@media only screen and (max-width: 600px) {
+  .nouvelle.election form {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+footer {
+  background-color: #fff;
+  box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.25);
+  padding: 5px;
+  margin-top: 100px;
+}
+
+.loader {
+  border: 10px solid #f3f3f3; /* Light grey */
+  border-top: 10px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 2s linear infinite;
+  margin: auto;
+  margin-top: 20px;
+  display: none;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

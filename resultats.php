@@ -42,7 +42,7 @@ session_start();
     }
   
   ?>
-  <h3>Résultat des élections :</h3>
+  <h2>Résultat des élections :</h2>
   <div class="resultat">
     <?php
       $electionId = intval($_GET["election_id"]);

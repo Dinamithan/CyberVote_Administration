@@ -79,6 +79,9 @@ document.getElementById("form_nouvelle_election").addEventListener("submit", fun
 });
 /////
 </script>
+<br>
+    <br>
+    <br>
 <footer>
         <div class="footer-left">
             <h3>CyberVote Administration</h3>

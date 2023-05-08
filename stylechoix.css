@@ -1,0 +1,68 @@
+/* Style du corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style de l'en-tête de la page */
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  
+  .logo-container img {
+    height: 50px;
+    vertical-align: middle;
+  }
+  
+  .logo-container h1 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+  }
+  
+  /* Style du conteneur principal */
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Style de la section d'affichage des élections */
+  .election {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .election h2 {
+    font-size: 24px;
+    margin: 0 0 10px;
+  }
+  
+  .election_1 {
+    background-color: #f5f5f5;
+  }
+  
+  .election_2 {
+    background-color: #fff;
+  }
+  
+  /* Style des éléments de chaque élection */
+  .election h3 {
+    font-size: 18px;
+    margin: 0 0 5px;
+  }
+  
+  .election p {
+    font-size: 14px;
+    margin: 0;
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .election p:last-child {
+    border: none;
+  }
